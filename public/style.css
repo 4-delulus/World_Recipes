@@ -238,6 +238,7 @@ li a:hover {
   transition: background-color 0.3s;
   text-decoration: none;
   float: right;
+  display: block;
 }
 
 .login-btn:hover {
