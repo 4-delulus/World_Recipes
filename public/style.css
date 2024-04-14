@@ -321,7 +321,6 @@ footer {
 
 #user {
   padding: 5px;
-  width: 60px;
   display: block;
 }
 
@@ -330,4 +329,5 @@ footer {
   float: right;
   margin-top: 20px;
   padding-right: 15px;
+  width: 70px;
 }
