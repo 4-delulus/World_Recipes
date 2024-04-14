@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="banner">
+        <h1>World Recipes</h1>
+    </div>
+
+    <ul class="navbar">
+      <li>
+        <img src="Recipe.png" id="logo">
+      </li>
+
+        <li><a class="active" href="index.html" >Home</a></li>
+
+        <li>  User Status: <a id="user"> </a>    </li> 
+
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <div class="search">
+            <input type="search" id="searchKey" placeholder="Search by ingredient">
+            <button onclick="searchByIngredient()">Search</button>
+
+            </div>
+
+                    <button class="btn waves-effect waves-light" id="logoutBtn" style=" display: none">
+                      Logout
+                    </button>
+
+
+                    <button class="btn waves-effect waves-light" id="loginBtn" >
+                      Login
+                    </button>
+
+
+    </ul>
+    <div class="center">
+        <section id="random"></section>
+        <button id="randomButton" class="random-button" onclick="getRandom()">Get Random Recipe</button>
+    </div>
+    <section>
+        <h2>Popular Categories</h2>
+        <div>
+            <div id="categories" class="button-container"></div>
+        </div>
+    </section>
+    <section>
+        <h2>Popular Cuisines</h2>
+        <div id="cuisines" class="button-container"> </div>
+    </section>
+
+   <div id="recipeModal" class="modal">
+     <div class="modal-content">
+       <span class="close">&times;</span>
+       <div class="recipe-content"></div>
+     </div>
+   </div>
+
+   <div id="result" class="button-container"></div>
+
+
+
+
+<script src="script.js"></script>
+
+    <script type="module">
+
+
+
+        import { signIn, logout, auth, setAuthListeners } from './auth.js';
+        let loginBtn = document.querySelector('#loginBtn');
+      let logoutBtn = document.querySelector('#logoutBtn');
+
+      function setLoggedInUI(){
+          M.toast({html: 'Logged In!'})
+          document.querySelector('#user').innerHTML = `Signed in Anonymously`;
+          document.querySelector('#loginBtn').style.display = 'none';
+          document.querySelector('#logoutBtn').style.display = 'inline-block';
+      }
+
+      function setLoggedOutUI(){
+          M.toast({html: 'Logged Out!'})
+          document.querySelector('#user').innerHTML = '';
+          document.querySelector('#loginBtn').style.display = 'inline-block';
+          document.querySelector('#logoutBtn').style.display = 'none';
+      }
+
+      logoutBtn.addEventListener('click', logout);
+      loginBtn.addEventListener('click', signIn);
+      setAuthListeners(setLoggedInUI, setLoggedOutUI);
+
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script> M.AutoInit(); </script>
+
+
+
+
+</body>
+
+</html>

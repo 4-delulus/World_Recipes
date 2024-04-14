@@ -1,0 +1,319 @@
+body {
+  background-image: url('https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?b=1&s=612x612&w=0&k=20&c=X6CkFGpSKhNZeiii8Pp2M_YrBdqs7tRaBytkGi48a0U=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  opacity: 0.9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3e2723;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar li {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #f9f6f4;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+li a:hover {
+  background-color: #6d4c41;
+}
+
+.search {
+  padding: 20px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.search input {
+  width: 30%;
+  padding: 12px;
+  border: 2px solid #6d4c41;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search button {
+  width: 10%;
+  padding: 12px;
+  background: #6d4c41;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search button:hover {
+  background: #4e342e;
+}
+
+.search button:active {
+  background: #6cd913;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-container .button-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.button-container .button-card:hover {
+  background-color: white;
+  transform: scale(1.05);
+}
+
+.button-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.button-card .meal-name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button-card button {
+  background-color: #6d4c41;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-card button:hover {
+  background-color: #4e342e;
+}
+
+.recipe {
+  background-color: #f9f6f4;
+}
+
+.random-button {
+  background-color: #6d4c41;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.random-button:hover {
+  background-color: #4e342e;
+}
+
+.random-button:active {
+  background-color: #6cd913;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.5); 
+  color: black;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image {
+  text-align: center;
+}
+
+#logo {
+  display: inline-block;
+  max-width: 100px;
+}
+
+.login-btn {
+  background-color: #6d4c41;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  float: right;
+}
+
+.login-btn:hover {
+  background-color: #4e342e;
+}
+
+.login-btn:active {
+  background-color: #6cd913;
+}
+
+.about-container {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about-container h2,
+.about-container p {
+  color: black;
+}
+
+.about-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #3e2723;
+}
+
+.about-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+
+.contact-container {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact-container h2,
+.contact-container p {
+  color: #3e2723; 
+}
+
+.contact-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #black;
+}
+
+.contact-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.7) ; 
+  color: black; 
+  text-align: center;
+  padding: 20px 0;
+}
