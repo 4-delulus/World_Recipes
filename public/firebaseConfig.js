@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAGxRizfMaBfh5YTT4ArWUnh4uEm1vxilE",
-    authDomain: "world-recipes-4210a.firebaseapp.com",
-    projectId: "world-recipes-4210a",
-    storageBucket: "world-recipes-4210a.appspot.com",
-    messagingSenderId: "319884363618",
-    appId: "1:319884363618:web:89b1c91ad0592569350e3b",
-    measurementId: "G-3KNBHZQF93"
-  };
+  apiKey: "AIzaSyCz0xniQAv1VfcyqfMznt4tuDlIH3K0MCA",
+  authDomain: "world-recipes-906d0.firebaseapp.com",
+  projectId: "world-recipes-906d0",
+  storageBucket: "world-recipes-906d0.appspot.com",
+  messagingSenderId: "522443747599",
+  appId: "1:522443747599:web:8650a89fc42c29d1478e7a",
+  measurementId: "G-YXEFLW5039"
+};
 
   export default firebaseConfig;
