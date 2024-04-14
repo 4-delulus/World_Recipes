@@ -67,7 +67,6 @@ li a:hover {
   padding: 20px;
   margin-top: 12px;
   text-align: center;
-  float:inline-start;
 }
 
 .search input {
@@ -325,9 +324,9 @@ footer {
 }
 
 .auth {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
   padding-right: 40px;
   width: 50px;
-  float: right;
+  float: inline-end;
 }
