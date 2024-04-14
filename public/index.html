@@ -21,19 +21,17 @@
         <li><a class="active" href="index.html" >Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <li id="searchbar">
-            <input type="search" id="searchKey" placeholder="Search by ingredient">
-            <button onclick="searchByIngredient()">Search</button>
+        <li class="search">
+        <li><input type="search" id="searchKey" placeholder="Search by ingredient"></li>
+        <li><button onclick="searchByIngredient()">Search</button></li>
         </li>
        
         <li class="auth">
-          <p>User Status:  <a id="user"></a></p>
-            <button class="login-btn" id="logoutBtn" style=" display: none"> Logout </button>
-            <button class="login-btn" id="loginBtn"> Login </button>
+          <li>User Status:  <a id="user"></a></li>
+          <li><button class="login-btn" id="logoutBtn" style=" display: none"> Logout </button></li>
+          <li><button class="login-btn" id="loginBtn"> Login </button></li>
         </li>
-       
     </ul>
-
 
     <div class="center">
         <section id="random"></section>
