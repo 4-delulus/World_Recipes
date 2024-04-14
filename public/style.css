@@ -46,6 +46,9 @@ ul {
   padding-bottom: 25px;
 }
 
+li {
+  float: left;
+}
 
 li a {
   display: block;
