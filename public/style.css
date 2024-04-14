@@ -325,3 +325,7 @@ footer {
   display: block;
   width: 50px;
 }
+
+.auth {
+  float: right;
+}
