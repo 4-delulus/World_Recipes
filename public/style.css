@@ -318,6 +318,7 @@ footer {
   padding: 20px 0;
 }
 
-.user {
+#user {
   float: right;
+  width: 25px;
 }
