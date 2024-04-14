@@ -321,9 +321,8 @@ footer {
 }
 
 #user {
-  padding: 20px;
-  width: 60px;
-  display: block;
+  padding: 10px;
+  width: 30px;
 }
 
 .auth {
