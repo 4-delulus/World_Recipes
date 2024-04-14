@@ -322,10 +322,10 @@ footer {
 #user {
   padding: 0px;
   width: 60px;
+  display: block;
 }
 
 .auth {
-
   display: block;
   float: right;
 }
