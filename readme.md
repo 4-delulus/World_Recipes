@@ -1,3 +1,3 @@
 # World Recipes
 
-A simple webpage to find a variety of delicious recipes around the world.
+A simple webpage to find a variety of delicious recipes from all around the world.
