@@ -238,7 +238,6 @@ li a:hover {
   transition: background-color 0.3s;
   text-decoration: none;
   float: right;
-  display: block;
 }
 
 .login-btn:hover {
@@ -321,16 +320,13 @@ footer {
 }
 
 #user {
-  padding: 10px;
-  width: 30px;
+  padding: 20px;
+  width: 60px;
+  display: block;
 }
 
 .auth {
   display: block;
   float: right;
   margin-top: 20px;
-}
-
-.buttons {
-  display: block;
 }
