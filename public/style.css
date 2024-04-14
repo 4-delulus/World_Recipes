@@ -330,3 +330,7 @@ footer {
   float: right;
   margin-top: 20px;
 }
+
+.buttons {
+  display: block;
+}
