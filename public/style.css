@@ -324,7 +324,7 @@ footer {
 }
 
 .auth {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   padding-right: 40px;
   width: 50px;
