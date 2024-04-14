@@ -320,12 +320,12 @@ footer {
 }
 
 #user {
-  float: right;
   padding: 0px;
-  display: block;
   width: 60px;
 }
 
 .auth {
+
+  display: block;
   float: right;
 }
