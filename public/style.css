@@ -63,13 +63,13 @@ li a:hover {
   background-color: #6d4c41;
 }
 
-.search {
+#searchbar {
   padding: 20px;
   margin-top: 12px;
   text-align: center;
 }
 
-.search input {
+#searchbar input {
   width: 20%;
   padding: 12px;
   border: 2px solid #6d4c41;
@@ -78,7 +78,7 @@ li a:hover {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.search button {
+#searchbar button {
   width: 10%;
   padding: 12px;
   background: #6d4c41;
@@ -91,11 +91,11 @@ li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.search button:hover {
+#searchbar button:hover {
   background: #4e342e;
 }
 
-.search button:active {
+#searchbar button:active {
   background: #6cd913;
 }
 
