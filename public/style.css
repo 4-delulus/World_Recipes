@@ -67,7 +67,6 @@ li a:hover {
   padding: 20px;
   margin-top: 12px;
   text-align: center;
-  float: left;
 }
 
 .search input {
@@ -317,4 +316,8 @@ footer {
   color: black; 
   text-align: center;
   padding: 20px 0;
+}
+
+.user {
+  float: right;
 }
