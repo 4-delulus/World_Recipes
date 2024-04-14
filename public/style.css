@@ -321,4 +321,5 @@ footer {
 #user {
   float: right;
   padding: 0px;
+  display: block;
 }
