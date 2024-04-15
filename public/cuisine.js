@@ -58,7 +58,7 @@ function displayRecipe(recipe) {
         <img src="${recipe.strMealThumb}" alt="${recipe.strMeal}">
         <br>
         <br>
-        <p>Click here to see Youtube Video: <a href="${recipe.strYouTube}">YouTube Link</a>
+        <p>Click here to see Youtube Video: <a href="${recipe.strYoutube}">YouTube Link</a>
         </p>
         <p>Click here to see Recipe Source: <a href="${recipe.strSource}">Source Link</a>
         </p> 
